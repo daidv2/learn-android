@@ -15,7 +15,10 @@ import com.example.learn_android.R;
 import com.example.learn_android.adapters.MyAdapter;
 
 /**
- * link references
+ * Android TabLayout
+ * Tab: TabLayout
+ * Content: ViewPager
+ *
  * https://www.javatpoint.com/android-tablayout
  * https://viblo.asia/p/gioi-thieu-thu-vien-android-support-design-1qm6RW3qReJE
  * https://xuanthulab.net/su-dung-snackbar-trong-lap-trinh-android.html
@@ -30,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Float Action Button + Snack bar
         mainContent = findViewById(R.id.main_content);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
