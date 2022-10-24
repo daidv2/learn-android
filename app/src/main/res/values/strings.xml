@@ -6,9 +6,6 @@
     <string name="sport_fragment">Sport Fragment</string>
     <string name="movie_fragment">Movie Fragment</string>
 
-    <dimen name="fab_margin_right">16dp</dimen>
-    <dimen name="fab_margin_bottom">56dp</dimen>
-
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in or register</string>
